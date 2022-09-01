@@ -1,0 +1,31 @@
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #ville {
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 4em;
+  }
+  
+  #changer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+    height: 10em;
+    width: 12em;
+    font-size: 1.4em;
+  }

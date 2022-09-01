@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="meteo.css" />
+    <script src="meteo.js" defer></script>
+    <title>Projet Météo</title>
+  </head>
+  <body>
+    <div class="container">
+  
+        <div class="row justify-content-center">
+          
+          <div class="col-md-8">
+            <!-- Titre -->
+            <h1 class="text-center mt-5">Météo</h1>
+            
+            <!-- City / Temperature -->
+            <div class="text-center">
+              <span id="ville">The city</span>
+              
+              <div id="temperature">
+                <span id="temperature_label">
+                  xx.x
+                </span> °C
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="row justify-content-center">  
+          <div class="col-md-8 text-center">
+            <!-- Changer de ville -->
+            <div id="changer" class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase d-inline-block">
+              Search for a city
+            </div>
+            <div>
+                Chose your location and get the temperature !
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+
+  </body>
+</html>
